@@ -1,0 +1,31 @@
+@import 'main/thumbnail';
+@import 'main/video-section';
+@import 'main/video-data';
+@import 'main/special-section';
+@import 'main/category';
+
+.videos{
+    background-color: lighten($color: grey, $amount: 45%);
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-icon{
+    margin-right: .75rem;
+    border-radius: 50%;
+
+    width: 36px;
+    height: 36px;
+
+    background-color: grey;
+}
+
+.video-bottom-section{
+    display: flex;
+    align-items: flex-start;
+
+    margin-top: 1rem;
+}
